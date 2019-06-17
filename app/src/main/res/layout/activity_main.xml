@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="64dp"
+    tools:context="com.example.acuma.MainActivity"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/textView" />
+
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:onClick="VenderoutActionClicked"
+            android:text="出货" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="出货查询"
+            android:onClick="VenderOutRequestClicked"
+            android:id="@+id/button5"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="设置货道价格"
+            android:onClick="setPriceButtonClicked"
+            android:id="@+id/button6"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="加货"
+            android:onClick="setAddProductsButtonClicked"
+            android:id="@+id/button7"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="是否营业"
+            android:onClick="setIsOpenButtonClicked"
+            android:id="@+id/button8"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="串口状态"
+            android:onClick="getReadStatusCommClicked"
+            android:id="@+id/button9"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="退币"
+            android:onClick="RefundCoinClicked"
+            android:id="@+id/button10"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="请求料到故障状况"
+            android:onClick="GetChannelErrorClicked"
+            android:id="@+id/button11"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="请求有无货信息状况"
+            android:onClick="GetInventoryClicked"
+            android:id="@+id/button12"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="请求机器状态状况"
+            android:onClick="GetMachineStatusClicked"
+            android:id="@+id/button13"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="PC请求Machine版本信息"
+            android:onClick="GetMachineVersionClicked"
+            android:id="@+id/button14"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="PC请求系统故障信息"
+            android:onClick="GetSystemFaultInfoClicked"
+            android:id="@+id/button15"
+            android:layout_alignParentStart="true" />
+
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请输入type类型："
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/editText" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="getInfo(type)"
+            android:onClick="getInfoButtonClicked"
+            android:id="@+id/button2"
+            android:layout_toEndOf="@+id/button1"
+            android:layout_alignBottom="@+id/button1" />
+
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="getStatus(type)"
+            android:onClick="getStatusButtonClicked"
+            android:id="@+id/button1"
+            android:layout_centerHorizontal="true" />
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:onClick="setMachineIdButtonClicked"
+            android:text="设置机器编号" />
+
+
+        <Button
+            android:id="@+id/button111"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:onClick="setPriceClicked"
+            android:text="设置价格" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        >
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_height="800dp"
+            android:layout_alignParentTop="true">
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/textview"
+                android:layout_height="match_parent" />
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

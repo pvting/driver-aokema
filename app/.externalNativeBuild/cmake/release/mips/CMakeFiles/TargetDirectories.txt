@@ -1,0 +1,3 @@
+/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
+/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir
+/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/Aucma.dir

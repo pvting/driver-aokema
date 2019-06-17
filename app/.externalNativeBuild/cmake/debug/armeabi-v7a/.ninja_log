@@ -1,0 +1,15 @@
+# ninja log v5
+1	480	0	CMakeFiles/Aucma.dir/src/main/cpp/native-lib.cpp.o	abe2871f4680798f
+325	412	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libAucma.so	a03605a735e7a245
+2	182	0	CMakeFiles/Aucma.dir/src/main/cpp/serialPort.c.o	80ebbbd205da1e0a
+1	163	0	CMakeFiles/Aucma.dir/src/main/cpp/main.c.o	d49eeaa51fdd82c5
+1	325	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	e74bb3eb9f74d57b
+1	344	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	e74bb3eb9f74d57b
+344	467	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libAucma.so	a03605a735e7a245
+2	279	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	e74bb3eb9f74d57b
+1	339	0	CMakeFiles/Aucma.dir/src/main/cpp/native-lib.cpp.o	abe2871f4680798f
+339	415	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libAucma.so	a03605a735e7a245
+1	234	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	e74bb3eb9f74d57b
+234	297	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libAucma.so	a03605a735e7a245
+0	231	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	e74bb3eb9f74d57b
+231	311	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libAucma.so	a03605a735e7a245

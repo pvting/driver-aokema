@@ -1,0 +1,57 @@
+
+{
+	"buildFiles" : [ "/Users/black/Documents/workspace/Aucma/Acuma/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/black/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/debug/mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"Aucma-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "Aucma",
+			"buildCommand" : "/Users/black/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/debug/mips --target Aucma",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/black/Library/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/black/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-mips  -DAucma_EXPORTS -isystem /Users/black/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/black/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/mips/include -isystem /Users/black/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/black/Documents/workspace/Aucma/Acuma/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/debug/mips"
+				},
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/black/Library/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/black/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-mips -DAucma_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/black/Documents/workspace/Aucma/Acuma/app/src/main/cpp/main.c",
+					"workingDirectory" : "/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/debug/mips"
+				},
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/black/Library/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/black/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-mips -DAucma_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/black/Documents/workspace/Aucma/Acuma/app/src/main/cpp/pthread_resolveData.c",
+					"workingDirectory" : "/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/debug/mips"
+				},
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=/Users/black/Library/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/black/Library/Android/sdk/ndk-bundle/platforms/android-17/arch-mips -DAucma_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/black/Documents/workspace/Aucma/Acuma/app/src/main/cpp/serialPort.c",
+					"workingDirectory" : "/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "/Users/black/Documents/workspace/Aucma/Acuma/app/build/intermediates/cmake/debug/obj/mips/libAucma.so",
+			"toolchain" : "4830902368583710133"
+		}
+	},
+	"toolchains" : 
+	{
+		"4830902368583710133" : 
+		{
+			"cCompilerExecutable" : "/Users/black/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/black/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

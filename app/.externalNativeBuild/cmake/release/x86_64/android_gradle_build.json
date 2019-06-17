@@ -1,0 +1,57 @@
+
+{
+	"buildFiles" : [ "/Users/black/Documents/workspace/Aucma/Acuma/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/black/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/release/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"Aucma-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "Aucma",
+			"buildCommand" : "/Users/black/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/release/x86_64 --target Aucma",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/black/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/black/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -DAucma_EXPORTS -isystem /Users/black/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/black/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/black/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/black/Documents/workspace/Aucma/Acuma/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/black/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/black/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -DAucma_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/black/Documents/workspace/Aucma/Acuma/app/src/main/cpp/main.c",
+					"workingDirectory" : "/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/black/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/black/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -DAucma_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/black/Documents/workspace/Aucma/Acuma/app/src/main/cpp/pthread_resolveData.c",
+					"workingDirectory" : "/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/black/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/black/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64 -DAucma_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/black/Documents/workspace/Aucma/Acuma/app/src/main/cpp/serialPort.c",
+					"workingDirectory" : "/Users/black/Documents/workspace/Aucma/Acuma/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "/Users/black/Documents/workspace/Aucma/Acuma/app/build/intermediates/cmake/release/obj/x86_64/libAucma.so",
+			"toolchain" : "4830902368583710133"
+		}
+	},
+	"toolchains" : 
+	{
+		"4830902368583710133" : 
+		{
+			"cCompilerExecutable" : "/Users/black/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/black/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

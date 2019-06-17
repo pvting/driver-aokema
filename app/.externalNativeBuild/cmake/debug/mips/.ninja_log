@@ -1,0 +1,15 @@
+# ninja log v5
+2	335	0	CMakeFiles/Aucma.dir/src/main/cpp/native-lib.cpp.o	78c5362c6e9e2fd1
+6	137	0	CMakeFiles/Aucma.dir/src/main/cpp/serialPort.c.o	37510cfee2826d23
+165	240	0	../../../../build/intermediates/cmake/debug/obj/mips/libAucma.so	ba2757f1e0a7ce50
+1	108	0	CMakeFiles/Aucma.dir/src/main/cpp/main.c.o	b0c67ef3f9a90d72
+2	164	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	2d6a9c04dd3e034a
+1	146	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	2d6a9c04dd3e034a
+146	219	0	../../../../build/intermediates/cmake/debug/obj/mips/libAucma.so	ba2757f1e0a7ce50
+23	280	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	2d6a9c04dd3e034a
+20	339	0	CMakeFiles/Aucma.dir/src/main/cpp/native-lib.cpp.o	78c5362c6e9e2fd1
+339	400	0	../../../../build/intermediates/cmake/debug/obj/mips/libAucma.so	ba2757f1e0a7ce50
+1	260	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	2d6a9c04dd3e034a
+260	347	0	../../../../build/intermediates/cmake/debug/obj/mips/libAucma.so	ba2757f1e0a7ce50
+0	161	0	CMakeFiles/Aucma.dir/src/main/cpp/pthread_resolveData.c.o	2d6a9c04dd3e034a
+161	221	0	../../../../build/intermediates/cmake/debug/obj/mips/libAucma.so	ba2757f1e0a7ce50
